@@ -1,9 +1,18 @@
-Hello! So i created a little starting template with Flask, React, and Tailwind preprepared with all of the config and everything up running. All that should be needed for frontend is to run npm install so that vite can be enabled, then you are free to add more components to the components folder and to start working! Send the components to App.jsx and that should render it. For the backend a virtual enviroment should be installed by running python -m venv venv, and activating it then when inside the venv run pip install SQlAlchemy, python-dotenv, flask-migrate, Flask, flask-cors, psycopg2-binary to install all the necessary details.
+Welcome!
 
-Steps:
+I've created a starter template using Flask, React, and Tailwind, preconfigured and ready to go. Here's how to get started:
 
-Frontend: 1.Go into Terminal and install npm
+Frontend:
 
-Backend: 1.Install vitual enviroment 2.Then enter virtual enviroment and run - pip install SQlAlchemy, python-dotenv, flask-migrate, Flask, flask-cors, psycopg2-binary
+Open a terminal and run npm install to set up Vite.
+Add new components to the components folder and import them into App.jsx for rendering.
 
-All Set!
+Backend:
+
+Set up a virtual environment:
+python -m venv venv
+
+Activate the environment and install dependencies:
+pip install SQLAlchemy python-dotenv flask-migrate Flask flask-cors psycopg2-binary
+
+You're all set to start building! 🚀
