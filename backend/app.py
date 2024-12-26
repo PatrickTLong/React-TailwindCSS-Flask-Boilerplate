@@ -9,6 +9,11 @@ import os
 load_dotenv()
 app = Flask(__name__)
 
+
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://username:password@localhost:5432/dbname'
+#the above is for local development. 
+# Once you want to store the URL
+# in a safe location remove the above.
 app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL')
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
 
