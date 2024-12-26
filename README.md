@@ -5,7 +5,7 @@ I've created a starter template using Flask, React, and Tailwind, preconfigured 
 Frontend:
 
 Open a terminal and run npm install to set up Vite.
-Add new components to the components folder and import them into App.jsx for rendering.
+
 
 Backend:
 
